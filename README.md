@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Civic Connect
 
 A citizen-to-government grievance reporting platform. Citizens report local civic
@@ -177,3 +178,6 @@ JSON API.
   at small scale but will make your database large and slow at high report volume —
   worth moving to actual file storage (e.g. S3, which `aws-sdk`/`multer-s3` are already
   installed for but unused) once you have meaningful traffic.
+=======
+# CivicConnect-v1
+>>>>>>> 872611145599eb26ac29f05e67e312c1683a2f22
