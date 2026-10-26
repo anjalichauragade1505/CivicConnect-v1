@@ -1,0 +1,130 @@
+.admin-report-details {
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.back-btn {
+  background: #f3f4f6;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.submitted-date {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.report-details-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.details-box, .status-timeline-box {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 300px;
+}
+
+.details-box img.report-image {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.info-grid {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.status-timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.status-timeline li {
+  padding: 8px 0;
+  border-left: 3px solid #e5e7eb;
+  padding-left: 10px;
+  margin-left: 5px;
+  color: #6b7280;
+}
+
+.status-timeline li.active {
+  font-weight: bold;
+  border-color: #3b82f6;
+  color: #1f2937;
+}
+
+.support-box {
+  margin-top: 2rem;
+}
+
+.support-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.status-select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.update-status-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.update-status-btn:hover {
+  background-color: #4338ca;
+}
+
+/* ===== Added: report image styling, mobile responsiveness ===== */
+.report-detail-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  margin-bottom: 1rem;
+}
+
+.error[role="alert"] {
+  color: #b91c1c;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .admin-report-details {
+    padding: 1rem;
+  }
+
+  .report-details-container {
+    flex-direction: column;
+  }
+}

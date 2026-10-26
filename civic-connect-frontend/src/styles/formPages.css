@@ -1,0 +1,83 @@
+/* src/styles/formPages.css */
+
+.form-page-root {
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+  color: white;
+}
+
+.form-box {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 40px 30px;
+  border-radius: 16px;
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.form-box h2 {
+  color: #00ffc8;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.form-box input,
+.form-box textarea,
+.form-box select {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background-color: white;
+  color: #0f172a;
+  box-sizing: border-box;
+}
+
+.form-box input:focus,
+.form-box textarea:focus,
+.form-box select:focus {
+  outline: 2px solid #00ffc8;
+  background: #e0f7fa;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 14px;
+  background-color: #ffffff;
+  color: #0f172a;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e2e8f0;
+  transform: scale(1.05);
+}
+
+.form-link {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.form-link a {
+  color: #00ffc8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-link a:hover {
+  text-decoration: underline;
+}
